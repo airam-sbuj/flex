@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background-color: rgb(188, 69, 69);
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo{
+    padding-top:20px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+ul>li{
+    padding-top: 20px;
+    padding-left: 26px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ul > li:hover{
+    background-color: rgb(206, 190, 190);
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.hero{
+    width: 100vw;
+    height: 400px;
+    background-image: url(pizzapi.jpg);
+    background-size: 1250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textodestaque{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    text-shadow: 5px 2px black;
+}
+
+main{
+    width: 100vw;
+    margin: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha{
+    width: 80vw;
+    height: 5px;
+    background-color: rgb(117, 9, 9);
+    margin: 20px 0;
+}
+
+main > h1{
+    font-size: 40px;
+    color: rgb(28, 78, 28);
+}
+main > p{
+    font-size: 30px;
+}
+
+.cards{
+    width: 100vw;
+    margin: 30px 30px;
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(216, 96, 96);
+}
+
+.cards{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
